@@ -10,8 +10,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
-
 
 public class MenuFragment extends Fragment {
     public MenuFragment() {
@@ -39,13 +37,13 @@ public class MenuFragment extends Fragment {
     public boolean onOptionsItemSelected (MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_mae:
-                Toast.makeText(getActivity(), "Mãe", Toast.LENGTH_LONG).show();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.maternidade.mae.MainFragment()).commit();
                 break;
             case R.id.menu_medico:
-                Toast.makeText(getActivity(), "Médico", Toast.LENGTH_LONG).show();
-                break;
+
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.maternidade.medico.MainFragment()).commit();                break;
             case R.id.menu_bebe:
-                Toast.makeText(getActivity(), "Bebê", Toast.LENGTH_LONG).show();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.maternidade.bebe.MainFragment()).commit();
                 break;
         }
         return super.onOptionsItemSelected(item);

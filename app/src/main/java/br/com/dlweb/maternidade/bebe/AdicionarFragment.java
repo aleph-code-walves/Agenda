@@ -1,21 +1,17 @@
-package br.com.dlweb.maternidade.mae;
+package br.com.dlweb.maternidade.bebe;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
-
+import androidx.fragment.app.Fragment;
 import br.com.dlweb.maternidade.R;
 
 public class AdicionarFragment extends Fragment {
 
-    public AdicionarFragment() {
-    }
+    public AdicionarFragment() { }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,9 +22,9 @@ public class AdicionarFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.mae_fragment_adicionar, container, false);
+        View v = inflater.inflate(R.layout.bebe_fragment_adicionar, container, false);
 
-        Button btnAdicionar = v.findViewById(R.id.buttonAdicionarMae);
+        Button btnAdicionar = v.findViewById(R.id.buttonAdicionarBebe);
 
         btnAdicionar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +37,8 @@ public class AdicionarFragment extends Fragment {
     }
 
     private void adicionar () {
-        Toast.makeText(getActivity(), "Mãe salva!", Toast.LENGTH_LONG).show();
-        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMae, new ListarFragment()).commit();
+        Toast.makeText(getActivity(), "Bebê salvo!", Toast.LENGTH_LONG).show();
+        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameBebe, new ListarFragment()).commit();
     }
+
 }
