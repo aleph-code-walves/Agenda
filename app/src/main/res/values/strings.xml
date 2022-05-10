@@ -7,12 +7,15 @@
     <string name="mae">Mãe</string>
     <string name="medico">Médico</string>
     <string name="bebe">Bebê</string>
+    <string name="dialog_excluir_mae">Deseja realmente excluir a mãe?</string>
 
     <string name="listar">Listar</string>
     <string name="adicionar">Adicionar</string>
     <string name="salvar">Salvar</string>
     <string name="editar">Editar</string>
     <string name="excluir">Excluir</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
 
     <string name="cep">CEP*</string>
     <string name="nome">Nome*</string>
