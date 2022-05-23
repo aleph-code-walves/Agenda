@@ -8,6 +8,8 @@
     <string name="medico">Médico</string>
     <string name="bebe">Bebê</string>
     <string name="dialog_excluir_mae">Deseja realmente excluir a mãe?</string>
+    <string name="dialog_excluir_medico">Deseja realmente excluir o médico?</string>
+    <string name="dialog_excluir_bebe">Deseja realmente excluir o bebê?</string>
 
     <string name="listar">Listar</string>
     <string name="adicionar">Adicionar</string>
