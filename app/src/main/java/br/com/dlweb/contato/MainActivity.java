@@ -1,10 +1,10 @@
-package br.com.dlweb.maternidade;
+package br.com.dlweb.contato;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import br.com.dlweb.maternidade.mae.MainFragment;
+import br.com.dlweb.contato.Contatos.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
 

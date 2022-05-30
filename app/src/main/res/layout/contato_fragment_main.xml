@@ -9,10 +9,10 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textViewGerenciarMaes"
+        android:id="@+id/textViewGerenciarContatos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gerenciar_maes"
+        android:text="@string/gerenciar_contatos"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -40,7 +40,7 @@
     </LinearLayout>
 
     <FrameLayout
-        android:id="@+id/frameMae"
+        android:id="@+id/frameContato"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

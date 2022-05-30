@@ -1,4 +1,4 @@
-package br.com.dlweb.maternidade;
+package br.com.dlweb.contato;
 
 import android.os.Bundle;
 
@@ -36,14 +36,8 @@ public class MenuFragment extends Fragment {
     @Override
     public boolean onOptionsItemSelected (MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_mae:
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.maternidade.mae.MainFragment()).commit();
-                break;
-            case R.id.menu_medico:
-
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.maternidade.medico.MainFragment()).commit();                break;
-            case R.id.menu_bebe:
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.maternidade.bebe.MainFragment()).commit();
+            case R.id.menu_contato:
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.contato.Contatos.MainFragment()).commit();
                 break;
         }
         return super.onOptionsItemSelected(item);

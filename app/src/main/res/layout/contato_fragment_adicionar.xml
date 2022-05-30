@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".medico.EditarFragment">
+    tools:context=".Contatos.AdicionarFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,80 +15,78 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textViewEditarMedico"
+                android:id="@+id/textViewAdicionarMae"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="@string/editar"
+                android:text="@string/adicionar"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textViewNomeMedico"
+                android:id="@+id/textViewNomeContato"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/nome" />
 
             <EditText
-                android:id="@+id/editTextNomeMedico"
+                android:id="@+id/editTextNomeContato"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
+
             <TextView
-                android:id="@+id/textViewEspecialidadeMedico"
+                android:id="@+id/textViewNumeroContato"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/especialidade" />
+                android:text="@string/numero" />
 
             <EditText
-                android:id="@+id/editTextEspecialidadeMedico"
+                android:id="@+id/editTextNumeroContato"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="number" />
 
             <TextView
-                android:id="@+id/textViewCelularMedico"
+                android:id="@+id/textViewNumeroCasa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/telefone_celular" />
+                android:text="@string/numerocasa" />
 
             <EditText
-                android:id="@+id/editTextCelularMedico"
+                android:id="@+id/editTextNumeroCasa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="phone" />
+                android:inputType="number" />
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/textViewNumeroTrabalho"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:orientation="horizontal">
+                android:text="@string/numerotrabalho" />
 
-                <Button
-                    android:id="@+id/buttonEditarMedico"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="5dp"
-                    android:layout_weight="1"
-                    android:text="@string/salvar" />
+            <EditText
+                android:id="@+id/editTextNumeroTrabalho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
 
-                <Button
-                    android:id="@+id/buttonExcluirMedico"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:layout_weight="1"
-                    android:text="@string/excluir" />
-            </LinearLayout>
-
+            <Button
+                android:id="@+id/buttonAdicionarMae"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/salvar" />
         </LinearLayout>
     </ScrollView>
 

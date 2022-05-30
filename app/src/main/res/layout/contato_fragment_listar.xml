@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bebe.ListarFragment">
+    tools:context=".Contatos.ListarFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,7 +11,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textViewAdicionarBebe"
+            android:id="@+id/textViewAdicionarMae"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -21,7 +21,7 @@
             android:textStyle="bold" />
 
         <ListView
-            android:id="@+id/listViewBebes"
+            android:id="@+id/listViewContato"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>

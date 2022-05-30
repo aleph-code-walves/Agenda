@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/layout/contato_fragment_adicionar.xml" value="0.1" />
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/layout/contato_fragment_editar.xml" value="0.1" />
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/layout/contato_fragment_listar.xml" value="0.264" />
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/layout/mae_fragment_adicionar.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/layout/mae_fragment_editar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/layout/mae_fragment_listar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/layout/mae_fragment_main.xml" value="0.25" />
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/layout/mae_item_list_view.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/alves/AndroidStudioProjects/Agenda_Project/app/src/main/res/menu/menu.xml" value="0.11302083333333333" />
         <entry key="..\:/Workspaces/prog-mobile/Android Studio/maternidade/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Workspaces/prog-mobile/Android Studio/maternidade/app/src/main/res/layout/bebe_fragment_adicionar.xml" value="0.15307971014492755" />
         <entry key="..\:/Workspaces/prog-mobile/Android Studio/maternidade/app/src/main/res/layout/fragment_menu.xml" value="0.358695652173913" />

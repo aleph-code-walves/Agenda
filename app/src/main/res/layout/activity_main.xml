@@ -9,7 +9,7 @@
     tools:menu="@menu/menu">
     <fragment
         android:id="@+id/menuFragment"
-        android:name="br.com.dlweb.maternidade.MenuFragment"
+        android:name="br.com.dlweb.contato.MenuFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <FrameLayout

@@ -1,6 +1,6 @@
-package br.com.dlweb.maternidade.mae;
+package br.com.dlweb.contato.Contatos;
 
-public class Mae implements java.io.Serializable {
+public class Contato implements java.io.Serializable {
 
     private int id;
     private String nome;
@@ -13,8 +13,10 @@ public class Mae implements java.io.Serializable {
     private String celular;
     private String comercial;
     private String data_nascimento;
+    private String numeroCasa;
+    private String numeroTrabalho;
 
-    public Mae() {}
+    public Contato() {}
 
     public int getId() {
         return id;
@@ -103,4 +105,22 @@ public class Mae implements java.io.Serializable {
     public void setData_nascimento(String data_nascimento) {
         this.data_nascimento = data_nascimento;
     }
+
+
+    public String getNumeroCasa() {
+        return numeroCasa;
+    }
+
+    public void setNumeroCasa(String numeroCasa) {
+        this.numeroCasa = numeroCasa;
+    }
+
+    public String getNumeroTrabalho() {
+        return numeroTrabalho;
+    }
+
+    public void setNumeroTrabalho(String numeroTrabalho) {
+        this.numeroTrabalho = numeroTrabalho;
+    }
+
 }
